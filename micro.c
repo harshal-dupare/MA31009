@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include <unistd.h>
 
 main(int argc, char **argv) {
 	int ib,ir,mar,mbr,pc, d, e, f, p, q, n, k[100], i, flag;
