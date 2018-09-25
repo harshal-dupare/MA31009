@@ -38,7 +38,8 @@ main(int argc, char **argv) {
 		if(ir == 48){printf("output_ib: %d\n", ib);	sleep(1);	fflush(stdout);}
 		
 		if(ir/100 == 5) {ib = ir%100; /*printf("value of ib now is : %d\n", ib);*/}
-		
+		// for(int j=0;j<=i;j++){printf("%d ",k[i]);}
+		printf("%d__",ir);
 	}while(ir!=49);
 	
 	printf("\nOver\n");
